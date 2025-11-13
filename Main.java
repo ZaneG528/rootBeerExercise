@@ -1,5 +1,5 @@
 public class Main{
-   public Main(int numOfBottles, int bottlesTaken){
+   public static void singRootBeerSong(int numOfBottles, int bottlesTaken){
    
    String bottlesTook="";
    String amount ="";
@@ -37,6 +37,6 @@ public class Main{
       
    }
    public static void main(String[]args){
-      Main a = new  Main(10,1);
+      singRootBeerSong(10,1);
    }
 }
